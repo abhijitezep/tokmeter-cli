@@ -14,7 +14,6 @@ from .db import NANO_PER_AIU, USD_PER_AIU, SessionStore, SessionStoreError
 from .metrics import (
     FRESH_INPUT,
     LOCAL_DAY,
-    LOCAL_TODAY,
     METRIC_COLUMNS,
     build_filter,
     decorate,
